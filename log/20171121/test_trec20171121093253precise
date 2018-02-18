@@ -1,0 +1,10 @@
+{'isEnglish': True, 'checkpoint_every': 500, 'overlap_needed': False, 'sample_train': 1, 'trainable': False, 'num_epochs': 500, 'allow_soft_placement': True, 'max_len_right': 40, 'dropout_keep_prob': 0.5, 'position_needed': False, 'embedding_dim': 50, 'filter_sizes': '40', 'evaluate_every': 500, 'dns': False, 'extend_feature_dim': 10, 'max_len_left': 40, 'l2_reg_lambda': 1e-08, 'learning_rate': 0.01, 'batch_size': 64, 'data': 'trec', 'log_device_placement': False, 'loss': 'point_wise', 'CNN_type': 'qacnn', 'pooling': 'max', 'clean': False, 'num_filters': 128, 'fresh': True}
+ 0:epoch: map_dev0.672010907913----map_test0.691284366347
+ 1:epoch: map_dev0.683225412929----map_test0.703261443345
+ 2:epoch: map_dev0.687819987871----map_test0.717339556375
+ 3:epoch: map_dev0.694764786067----map_test0.700136428706
+ 4:epoch: map_dev0.695762102763----map_test0.69884917223
+ 5:epoch: map_dev0.68680754986----map_test0.714462562925
+ 6:epoch: map_dev0.694428842908----map_test0.695661535951
+ 7:epoch: map_dev0.684363069622----map_test0.707119553387
+ 8:epoch: map_dev0.701737059627----map_test0.705058114597
